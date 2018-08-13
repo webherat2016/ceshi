@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <script src="./jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="./practice.css">
+</head>
+
+<body>
+    <img src="./img/logo1.png" alt="" class="wid" id="ss">
+    <div class="aut">
+        <img src="./img/实习升-招聘2.png" alt="" class="mar img_wid">
+    </div>
+    <div class="aut">
+        <div class="img_wid post">
+            <a href="#table">
+                <table>
+                    <tr>
+                        <th style="position:relative;right:10px;">职位</th>
+                        <th>薪资</th>
+                    </tr>
+                    <tr>
+                        <td>行政助理实习生</td>
+                        <td>2.5K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>房产经纪实习生</td>
+                        <td>5K-10K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>会计实习生</td>
+                        <td>2K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>出纳实习生</td>
+                        <td>2K-3.5K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>产品运营实习生</td>
+                        <td>2K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>UE4设计师实习生</td>
+                        <td>3K-5K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>软件开发实习生</td>
+                        <td>4K-6K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                </table>
+            </a>
+            <a href="#table">
+                <table>
+                    <tr>
+                        <th style="position:relative;right:10px;">职位</th>
+                        <th>薪资</th>
+                    </tr>
+                    <tr>
+                        <td>行政助理实习生</td>
+                        <td>2.5K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>房产经纪实习生</td>
+                        <td>5K-10K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>会计实习生</td>
+                        <td>2K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>出纳实习生</td>
+                        <td>2K-3.5K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>产品运营实习生</td>
+                        <td>2K-4K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>UE4设计师实习生</td>
+                        <td>3K-5K</td>
+                        <td>
+                            <span>投递简历</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>软件开发实习生</td>
+                        <td>4K-6K</td>
+                        <td>
+                            <span href="#ss">投递简历</span>
+                        </td>
+                    </tr>
+                </table>
+            </a>
+        </div>
+    </div>
+    <div class="aut mar_top">
+        <img src="./img/投递简历.png" alt="">
+    </div>
+    <div class="aut">
+        <div class="mar_top pad_bottom" id="table">
+            <div class="message">
+                <h3 style="margin:0px;">基本信息</h3>
+                <hr style="margin:30px 0px;border:0.5px solid #ccc;">
+                <form id="zyForm" class="form-horizontal" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+                    data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+                    <div class="block">
+                        <div class="msg_left" style="margin-right:150px;">
+                            <label for="name">姓&nbsp;名
+                                <b style="color:#ff721e">*</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" id="name" required pattern="[\u4E00-\u9FA5]{2,4}">
+                            <br>
+                            <br>
+                            <label for="age">年&nbsp;龄
+                                <b style="color:#ff721e">*</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="qq">Q&nbsp;Q
+                                <b style="color:#ff721e">*</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="phone">联系电话
+                                <b style="color:#ff721e" pattern="^1[3|4|5|7|8][0-9]\d{8}$">*</b>&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="phone">应聘企业
+                                <b style="color:#ff721e" pattern="[\u4E00-\u9FA5]{2,6}">*</b>&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="msg_left">
+                            <label for="sex">性&nbsp;别
+                                <b style="color:#ff721e">*</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <div class="messy">
+                                <input type="radio" id="man" checked name="woman">&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="man">
+                                </label>
+                                <input type="radio" id="wo" name="woman">&nbsp;女
+                                <label for="wo">
+                                </label>
+                            </div>
+                            <br>
+                            <br>
+                            <label for="age">学&nbsp;历
+                                <b style="color:#ff721e">*</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="qq">微&nbsp;信 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="phone">现居住地
+                                <b style="color:#ff721e" pattern="[\u4E00-\u9FA5]{2,4}">*</b>&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                            <br>
+                            <br>
+                            <label for="phone">应聘职位
+                                <b style="color:#ff721e" pattern="[\u4E00-\u9FA5]{2,4}">*</b>&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <h3>教育经历</h3>
+                    <hr style="margin:30px 0px;border:0.5px solid #ccc;">
+                    <div class="fon_col">格式填写：X年X月X——X年X月X,学习名称，获得何种证书;请从近期的填写</div>
+                    <textarea name="" id="" cols="975" rows="150" class="text_wh" required></textarea>
+
+                    <h3>工作经历</h3>
+                    <hr style="margin:30px 0px;border:0.5px solid #ccc;">
+                    <div class="fon_col">格式填写：X年X月X——X年X月X,公司名称，职位;请从近期填写</div>
+                    <textarea name="" id="" cols="975" rows="150" class="text_wh" required></textarea>
+
+                    <h3>自我评价</h3>
+                    <hr style="margin:30px 0px;border:0.5px solid #ccc;">
+
+                    <textarea name="" id="" cols="975" rows="150" class="text_wh" required></textarea>
+                    <div class="submt">
+                        <button class="but">确认并提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: '微软雅黑';
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    background: url('./img/bg.gif') no-repeat;
+    background-size: 100% 100%;
+}
+
+.wid {
+    width: 100%;
+
+}
+
+.aut {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mar_top {
+    margin-top: 150px;
+}
+
+.mar {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    bottom: 200px;
+}
+
+.img_wid {
+    width: 1150px;
+}
+
+.post {
+    width: 1150px;
+    height: 870px;
+    padding: 0 50px;
+    background: url('./img/标-副本-31.png') no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 180px;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(2):hover {
+    color: white!important;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(3):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(4):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(5):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(6):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(7):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(8):hover {
+    color: white;
+    background-color: #1178e4;
+}
+
+table tr:nth-child(2):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(3):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(4):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(5):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(6):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(7):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(8):hover span {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+
+table th {
+    padding: 30px;
+    color: #1178e4;
+}
+
+table td {
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr>td:nth-child(3)>span {
+    padding: 5px 20px;
+    font-size: 11px;
+    border: 1px solid #1178e4;
+    color: #1178e4;
+}
+
+table tr:nth-child(2)>td {
+    border-top: 1px solid #ccc;
+}
+
+.pad_bottom {
+    width: 1140px;
+    height: 2150px;
+    background: url('./img/在线投递.png') no-repeat;
+    background-size: 100%;
+    padding-bottom: 200px;
+    
+    display: flex;
+    justify-content: center;
+}
+.message{
+    width: 975px;
+    height: 1150px;
+    margin-top: 405px;
+}
+.message h3{
+    margin-top: 25px;
+    color: #1178e4;
+}
+.fon_col{
+    color: #a3a3a3;
+    font-size: 13px;
+}
+.block label{
+    font-size: 20px;
+}
+.block input{
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+        border: 1px solid #a3a3a3;    
+}
+.text_wh{
+    max-width: 100%;
+    max-height: 150px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid #a3a3a3;
+}
+.block{
+
+}
+.block div{
+    display:inline-block;
+    /* justify-content: space-between; */
+}
+.msg_left{
+    width: 340px;
+    height: auto;
+}
+.submt{
+    display: flex;
+    justify-content: center;
+}
+.but{
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #1178e4;
+    color: white;
+    border: 1px;
+}
+.messy input{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+}
+.messy{
+    font-size: 20px;
+}
